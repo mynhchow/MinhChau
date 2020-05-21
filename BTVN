@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tính diện tích và chu vi hình chữ nhật</h1>
+    <input id="input" placeholder="type here" />
+    <input id="input2" placeholder="type here"/>
+    <button onclick="
+     let inputString = document.getElementById('input').value
+     let input2String = document.getElementById('input2').value
+        let result = eval(inputString*input2String)
+        let result2 = eval(inputString+input2String)*2
+        console.log(inputString*input2String)
+        console.log(inputString + input2String)*2
+        resultElement.innerText = result
+    " >Area</button>
+    <button onclick="
+        resultElement.innerText=''
+    ">Perimeter</button>
+    <button onclick="
+    result2Element.innerText=''
+    <script>
+        let input2String = document.getElementById('input2')
+        let inputString = document.getElementById('input')
+        let resultElement = document.getElementById('result')
